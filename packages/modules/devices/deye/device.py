@@ -80,9 +80,9 @@ def read_legacy(component_type: str, username: str, password: str, ip_address: s
     component_config.id = num
     dev.add_component(component_config)
 
-    log.debug('Deye IP-Adresse: ' + ip_address)
-    log.debug('Deye Passwort: ' + password)
     log.debug('Deye Username: ' + username)
+    log.debug('Deye Passwort: ' + password)
+    log.debug('Deye IP-Adresse: ' + ip_address)
 
     dev.update()
 
