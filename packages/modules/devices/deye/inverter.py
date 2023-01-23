@@ -45,9 +45,9 @@ class DeyeInverter:
             total_e_value = int(total_e.group())
             #total_e_value = int(re.search('(/d*)', total_e.group()))
 
-            # Hint:
-            # exported: total energy in Wh
-            # power: actual power in W
+        # Hint:
+        # exported: total energy in Wh
+        # power: actual power in W
 
         inverter_state = InverterState(
             power=now_p_value,
